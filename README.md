@@ -4,9 +4,9 @@
 - macOS Big Sur 11.6/Monterey 12.0.1
 - OpenCore r0.7.6
 
-Catalina isn't tested!
-It may have some issues, but if there's anything ok with it, then contact with me through Telegram: 
-t.me/ArixElo
+*Catalina isn't tested!*
+*It may have some issues, but if there's anything ok with it, then contact with me through Telegram: 
+t.me/ArixElo*
 
 ## UEFI Recommended Settings:
 - Hyper-Threading Technology: Enabled
