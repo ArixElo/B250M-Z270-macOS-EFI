@@ -8,6 +8,19 @@
 *It may have some issues, but if there's anything ok with it, then contact with me through Telegram: 
 t.me/ArixElo*
 
+## Usage guide:
+- Make macOS Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
+- After making it, simply download latest version of EFI and unpack it to the root of your installer USB,
+- Reboot to UEFI and set recommended settings that are under this,
+- Save and reboot to Boot Menu, pick your USB, and select macOS Installer (external),
+- Go to Disk Utility and format your disk as APFS,
+- After that go to Big Sur/Monterey installation, and pick your newly formatted drive, it will reboot a couple of times, then simply go to Boot Menu and select your USB, after that simply select "macOS Installer" and lately select the name of your macOS drive,
+- After configuring macOS download and open MountEFI script: https://github.com/corpnewt/MountEFI
+- Mount your USB and drive EFI's,
+- Copy EFI folder from USB to EFI Partition on your macOS drive, 
+- Unmount all EFI partitions after so. 
+- SSD/NVMe drives recommended.
+
 ## UEFI Recommended Settings:
 - Hyper-Threading Technology: Enabled
 - Intel Speed Boost: Enabled
@@ -22,6 +35,9 @@ t.me/ArixElo*
 - VT-d : Disabled
 - DVMT Pre-Allocated Memory : 64~128 MB
 - Secure Boot and PTT can be enabled if you have installed Windows 11 on separate drive.
+
+That EFI doesn't have verbose mode turned on by default, but you can simply set it by adding:
+**-v** parameter to config.plist at NVRAM section in boot-args string.
 
 ## Issues during normal usage (this note will be updated):
 - There's some problem with macOS updates, basically i can't able to update normally.
