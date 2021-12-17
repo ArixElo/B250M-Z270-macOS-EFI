@@ -10,7 +10,7 @@ t.me/ArixElo*
 
 ## Usage guide:
 - Make macOS Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
-- After making it, simply download latest version of EFI and unpack it to the root of your installer USB,
+- After making it, simply download latest version of EFI and unpack it to the EFI folder on root of your installer USB,
 - Reboot to UEFI and set recommended settings that are under this,
 - Save and reboot to Boot Menu, pick your USB, and select macOS Installer (external),
 - Go to Disk Utility and format your disk as APFS,
