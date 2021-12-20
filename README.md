@@ -44,7 +44,7 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 
 ## What's working:
 - Intel HD Graphics 630 VGA and HDMI outputs (full graphics acceleration and DRM),
-- Realtek ALC 887, with layout-id 11,
+- Realtek ALC 887, with layout-id 12,
 - Network,
 - Night Shift,
 - iMessage & FaceTime,

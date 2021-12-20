@@ -287,7 +287,7 @@
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>11</integer>
+				<integer>12</integer>
 			</dict>
 		</dict>
 	</dict>
@@ -1110,7 +1110,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 darkwake=0 -disablegfxfirmware -no_compat_check agdpmod=vit9696 alcid=11</string>
+				<string>-v keepsyms=1 darkwake=0 -disablegfxfirmware -no_compat_check agdpmod=vit9696 alcid=12</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
