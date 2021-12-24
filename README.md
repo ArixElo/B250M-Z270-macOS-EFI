@@ -40,9 +40,7 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 **-v** parameter to config.plist at NVRAM section in boot-args string.
 
 ## Issues during normal usage (this note will be updated):
-- There's some problem with macOS updates, basically i can't able to update normally,
-
-
+None.
 
 ## What's working:
 - Intel HD Graphics 630 VGA and HDMI outputs (full graphics acceleration and DRM),
@@ -50,7 +48,8 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 - Network,
 - Night Shift,
 - Bluetooth with a Realtek Dongle (also works on Monterey!),
-
+- iMessage and FaceTime after running iMessageFix,
+- System updates.
 ## What's not working:
 - Sleep & Wake
 
