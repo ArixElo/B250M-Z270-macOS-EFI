@@ -41,7 +41,8 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 
 ## Issues during normal usage (this note will be updated):
 - There's some problem with macOS updates, basically i can't able to update normally,
-- iMessage and FaceTime are logging off after 5s of use.
+
+
 
 ## What's working:
 - Intel HD Graphics 630 VGA and HDMI outputs (full graphics acceleration and DRM),
