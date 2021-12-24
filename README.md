@@ -4,9 +4,7 @@
 - macOS Big Sur 11.6/Monterey 12.0.1
 - OpenCore r0.7.6
 
-*Catalina isn't tested!*
-*It may have some issues, but if there's anything ok with it, then contact with me through Telegram: 
-t.me/ArixElo*
+**Catalina isn't supported at all!**
 
 ## Usage guide:
 - Make macOS Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
@@ -48,8 +46,9 @@ None.
 - Network,
 - Night Shift,
 - Bluetooth with a Realtek Dongle (also works on Monterey!),
-- iMessage and FaceTime after running iMessageFix,
+- iMessage and FaceTime after running iMessageFix (https://t.me/arixnara/29),
 - System updates.
+
 ## What's not working:
 - Sleep & Wake
 
