@@ -24,15 +24,15 @@
 - Intel Speed Boost: Enabled
 - Fast Boot: Disabled
 - MSI Fast Boot: Disabled
-- OS Type : Windows 8 / 10
-- Secure Boot : Disabled
+- OS Type: Windows 8 / 10
+- Secure Boot: Disabled (If you have Windows 11 on other drive then it can be enabled)
 - Serial(COM) Port: Disabled
 - Parallel Port: Disabled
-- XHCI Hand-Off : Enabled
+- XHCI Hand-Off: Enabled
 - SATA Mode: AHCI
-- VT-d : Disabled
-- DVMT Pre-Allocated Memory : 64~128 MB
-- Secure Boot and PTT can be enabled if you have installed Windows 11 on separate drive.
+- VT-d: Disabled
+- DVMT Pre-Allocated Memory: 64~128 MB
+- PTT can be enabled if you have installed Windows 11 on separate drive.
 
 That EFI doesn't have verbose mode turned on by default, but you can simply set it by adding:
 **-v** parameter to config.plist at NVRAM section in boot-args string.
