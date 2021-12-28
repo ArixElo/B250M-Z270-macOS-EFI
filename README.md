@@ -25,7 +25,7 @@
 - Fast Boot: Disabled
 - MSI Fast Boot: Disabled
 - OS Type: Windows 8 / 10
-- Secure Boot: Disabled (If you have Windows 11 on other drive then it can be enabled)
+- Secure Boot: Disabled
 - Serial(COM) Port: Disabled
 - Parallel Port: Disabled
 - XHCI Hand-Off: Enabled
