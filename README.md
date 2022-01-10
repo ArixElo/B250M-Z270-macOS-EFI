@@ -1,20 +1,21 @@
 # MSI B250M-PRO-VH macOS OpenCore EFI 
 
 ## macOS & OpenCore Versions
-- macOS Big Sur 11.6/Monterey 12.0.1
+- macOS Big Sur 11.6/Monterey 12.1
 - OpenCore r0.7.6
 
 **Catalina isn't supported at all!**
 
 ## Usage guide:
 - Make macOS Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
-- After making it, simply download latest version of EFI and unpack it to the EFI folder on root of your installer USB,
+- After making it, simply download latest version of EFI and unpack EFI folder, use https://github.com/corpnewt/GenSMBIOS to generate your SMBIOS configs for **iMac18,1** model,
+- After that, simply drag your EFI folder to root of your macOS Installer USB drive.
 - Reboot to UEFI and set recommended settings that are under this,
-- Save and reboot to Boot Menu, pick your USB, and select macOS Installer (external),
+- Save and reboot to Boot Menu, pick your USB drive, and select macOS Installer (external),
 - Go to Disk Utility and format your disk as APFS,
-- After that go to Big Sur/Monterey installation, and pick your newly formatted drive, it will reboot a couple of times, then simply go to Boot Menu and select your USB, after that simply select "macOS Installer" and lately select the name of your macOS drive,
+- After that go to Big Sur/Monterey installation, and pick your newly formatted drive, it will reboot a couple of times, then simply go to Boot Menu and select your USB drive, after that simply select "macOS Installer" and lately select the name of your macOS drive,
 - After configuring macOS download and open MountEFI script: https://github.com/corpnewt/MountEFI
-- Mount your USB and drive EFI's,
+- Mount your USB drive and macOS drive EFI partitions,
 - Copy EFI folder from USB to EFI Partition on your macOS drive, 
 - Unmount all EFI partitions after so. 
 - SSD/NVMe drives recommended.
