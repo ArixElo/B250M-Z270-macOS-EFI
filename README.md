@@ -2,7 +2,7 @@
 
 ## macOS & OpenCore Versions
 - macOS Big Sur 11.6/Monterey 12.2
-- OpenCore r0.7.7
+- OpenCore r0.7.8
 
 **Catalina isn't supported at all!**
 
@@ -43,7 +43,7 @@ None.
 
 ## What's working:
 - Intel HD Graphics 630 VGA and HDMI outputs (full graphics acceleration and DRM),
-- Realtek ALC 887, with layout-id 12,
+- Realtek ALC 887, with layout-id 52,
 - Network,
 - Night Shift,
 - Bluetooth with a Realtek Dongle (also works on Monterey!),
