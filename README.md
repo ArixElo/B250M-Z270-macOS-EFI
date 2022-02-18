@@ -1,7 +1,7 @@
 # MSI B250M-PRO-VH macOS OpenCore EFI 
 
 ## macOS & OpenCore Versions
-- macOS Big Sur 11.6/Monterey 12.2
+- macOS Big Sur 11.6/Monterey 12.2.1
 - OpenCore r0.7.8
 
 **Catalina isn't supported at all!**
@@ -51,6 +51,6 @@ None.
 - System updates.
 
 ## What's not working:
-- Sleep & Wake
+- Sleep & Wake (can't be fixable)
 
 README is heavily inspired by: https://github.com/lshbluesky/OC-GA-B250M-DS3H-Hackintosh
