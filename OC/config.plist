@@ -639,15 +639,19 @@
 			<false/>
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
 		</dict>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
 			<data></data>
-			<key>Cpuid1Mask</key>
-			<data></data>
 			<key>DummyPowerManagement</key>
 			<false/>
+			<key>Cpuid1Mask</key>
+			<data></data>
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
@@ -741,6 +745,13 @@
 	<dict>
 		<key>BlessOverride</key>
 		<array/>
+		<key>Serial</key>
+		<dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
+		</dict>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -782,8 +793,6 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
