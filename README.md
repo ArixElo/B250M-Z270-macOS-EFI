@@ -41,6 +41,13 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 ## Issues during normal usage (this note will be updated):
 None.
 
+## Specs that are used by this EFI:
+-Motherboard: MSI B250M-PRO-VH,
+-CPU: Intel Core i7 7700 (4x3.6GHz+ Turbo Boost to 4.20GHz),
+-GPU Intel HD Graphics 630,
+-Memory: 16GB DDR4,
+-Disk on which macOS is installed: GOODRAM IRDM 128GB (SSD, SATA)
+
 ## What's working:
 - Intel HD Graphics 630 VGA and HDMI outputs (full graphics acceleration and DRM),
 - Realtek ALC 887, with layout-id 52,
