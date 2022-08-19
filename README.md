@@ -1,13 +1,13 @@
 # MSI B250M-PRO-VH macOS OpenCore EFI 
 
 ## macOS & OpenCore Versions
-- macOS Big Sur 11.6/Monterey 12.3.1
-- OpenCore r0.7.9
+- macOS Big Sur 11.6/Monterey 12.5.1/Latest Ventura Beta.
+- OpenCore r0.8.3
 
 **Catalina isn't supported at all!**
 
 ## Usage guide:
-- Make macOS Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
+- Make macOS Monterey Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
 - After making it, simply download latest version of EFI and unpack EFI folder, use https://github.com/corpnewt/GenSMBIOS to generate your SMBIOS configs for **iMac18,1** model,
 - After that, simply drag your EFI folder to root of your macOS Installer USB drive.
 - Reboot to UEFI and set recommended settings that are under this,
@@ -19,6 +19,8 @@
 - Copy EFI folder from USB to EFI Partition on your macOS drive, 
 - Unmount all EFI partitions after so. 
 - SSD/NVMe drives recommended.
+
+- For Ventura installation (for now) you have to download beta profile or a full installation package.
 
 ## UEFI Recommended Settings:
 - Hyper-Threading Technology: Enabled
@@ -54,7 +56,7 @@ None.
 - Network,
 - Night Shift,
 - Bluetooth with a Realtek Dongle (also works on Monterey!),
-- iMessage and FaceTime after running iMessageFix (https://t.me/arixnara/29),
+- iMessage and FaceTime after running iMessageFix (https://t.me/arixnara/29) **For Ventura this fix is not required.**,
 - System updates.
 
 ## What's not working:
