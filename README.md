@@ -1,8 +1,8 @@
 # MSI B250M-PRO-VH macOS OpenCore EFI 
 
 ## macOS & OpenCore Versions
-- macOS Big Sur 11.6/Monterey 12.5.1/Latest Ventura Beta.
-- OpenCore r0.8.3
+- macOS Big Sur 11.7/Monterey 12.6/Latest Ventura Beta.
+- OpenCore r0.8.4
 
 **Catalina isn't supported at all!**
 
