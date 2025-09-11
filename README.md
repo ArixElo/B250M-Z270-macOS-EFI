@@ -1,8 +1,8 @@
 # MSI B250M-PRO-VH/Gigabyte GA-Z270-Gaming-K3 macOS OpenCore EFI 
 
 ## macOS & OpenCore Versions
-- macOS Big Sur 11.7.10/Monterey 12.7.6/Ventura 13.7/Sonoma 14.7/Sequoia 15.0.
-- OpenCore r1.0.1
+- macOS Big Sur 11.7.10/Monterey 12.7.6/Ventura 13.7.8/Sonoma 14.7.8/Sequoia 15.6.1/Tahoe 26.
+- OpenCore r1.0.5
 
 **Catalina is not supported!**
 
@@ -11,12 +11,12 @@
 ## Usage guide:
 - Make macOS Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
 - After making it, simply download latest version of EFI, and unpack EFI folder, use https://github.com/corpnewt/GenSMBIOS to generate your SMBIOS configs for **iMac18,1** (iGPU and macOS Ventura or lower only) or **iMacPro1,1** (Dedicated GPU and macOS Sonoma or higher only)
-- P.S for Gaming K3 motherboard, pick the **slave-v2-z270** branch instead.
+- P.S for Gaming K3 motherboard, pick the **slave-v3** branch instead.
 - After that, simply drag your EFI folder to root of your macOS Installer USB drive.
 - Reboot to UEFI and set recommended settings that are under this.
 - Save and reboot to Boot Menu, pick your USB drive, and select macOS Installer/Name of your USB Drive (external),
 - Go to Disk Utility and format your disk as APFS (sometimes it needs to be formatted as macOS Journaled due to strange issue with APFS when it doesn't create EFI partition,)
-- After that go to Big Sur/Monterey/Ventura installation, and pick your newly formatted drive, it will reboot a couple of times, then simply go to Boot Menu and select your USB drive, after that simply select "macOS Installer" and lately select the name of your macOS drive,
+- After that go to your macOS version installation, and pick your newly formatted drive, it will reboot a couple of times, then simply go to Boot Menu and select your USB drive, after that simply select "macOS Installer" and lately select the name of your macOS drive,
 - After configuring macOS download and open MountEFI script: https://github.com/corpnewt/MountEFI
 - Mount your USB drive and macOS drive EFI partitions,
 - Copy EFI folder from USB to EFI Partition on your macOS drive, 
@@ -76,14 +76,15 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 ## What's working:
 - Intel HD Graphics 630 VGA and HDMI outputs (full graphics acceleration and software DRM),
 - Dedicated GPU Acceleration
-- Realtek ALC 887, with layout-id 52/ALC 1220 with layout-id 1,
+- Realtek ALC 887, with layout-id 52/ALC 1220 with layout-id 20,
 - Network,
 - Night Shift,
-- Bluetooth with a Realtek Dongle (also works on Monterey!),
+- Bluetooth with a Realtek Dongle (only works before Ventura!),
 - iMessage and FaceTime after running iMessageFix (https://t.me/arixnara/29) **For Ventura and higher this fix is not required.**,
 - System updates.
 
 ## What's not working:
-- Sleep & Wake (can't be fixable on MSI and iGPU)
-
+- Sleep & Wake (can't be fixable on MSI and iGPU),
+- Bluetooth on Sonoma and higher,
+- Hardware DRM on iGPU.
 README is heavily inspired by: https://github.com/lshbluesky/OC-GA-B250M-DS3H-Hackintosh
