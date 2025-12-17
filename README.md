@@ -76,7 +76,7 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 ## What's working:
 - Intel HD Graphics 630 VGA and HDMI outputs (full graphics acceleration and software DRM),
 - Dedicated GPU Acceleration
-- Realtek ALC 887, with layout-id 52/ALC 1220 with layout-id 20,
+- Realtek ALC 887, with layout-id 52/ALC 1220 with layout-id 20 (in Tahoe you need to use [MyKextInstaller](https://github.com/Mirone/MyKextInstaller) in order to install AppleHDA kext which AppleALC relies on, and you need to do that after any update in Tahoe. AMFI and SIP will be set to proper values for that tool to work.)
 - Network,
 - Night Shift,
 - Bluetooth with a Realtek Dongle (only works before Ventura!),
