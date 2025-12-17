@@ -10,8 +10,8 @@
 
 ## Usage guide:
 - Make macOS Installer by following this link: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
-- After making it, simply download latest version of EFI, and unpack EFI folder, use https://github.com/corpnewt/GenSMBIOS to generate your SMBIOS configs for **iMac18,1** (iGPU and macOS Ventura or lower only) or **iMacPro1,1** (Dedicated GPU and macOS Sonoma or higher only)
-- P.S for Gaming K3 motherboard, pick the **slave-v3** branch instead.
+- After making it, simply download latest version of EFI, and unpack EFI folder, use https://github.com/corpnewt/GenSMBIOS to generate your SMBIOS configs for **iMac18,1** (iGPU and macOS Ventura or lower only) or **iMacPro1,1** (Dedicated GPU and macOS Sonoma or higher only) or **MacPro7,1** (Dedicated GPU and macOS Tahoe only.)
+- P.S for Gaming K3 motherboard, pick the **slave-v3** branch instead, for Tahoe, pick the **slave-v3-final** branch.
 - After that, simply drag your EFI folder to root of your macOS Installer USB drive.
 - Reboot to UEFI and set recommended settings that are under this.
 - Save and reboot to Boot Menu, pick your USB drive, and select macOS Installer/Name of your USB Drive (external),
@@ -87,4 +87,5 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 - Sleep & Wake (can't be fixable on MSI and iGPU),
 - Bluetooth on Sonoma and higher,
 - Hardware DRM on iGPU.
+
 README is heavily inspired by: https://github.com/lshbluesky/OC-GA-B250M-DS3H-Hackintosh
