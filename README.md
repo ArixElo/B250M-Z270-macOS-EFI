@@ -1,8 +1,8 @@
 # MSI B250M-PRO-VH/Gigabyte GA-Z270-Gaming-K3 macOS OpenCore EFI 
 
 ## macOS & OpenCore Versions
-- macOS Big Sur 11.7.10/Monterey 12.7.6/Ventura 13.7.8/Sonoma 14.7.8/Sequoia 15.6.1/Tahoe 26.
-- OpenCore r1.0.5
+- macOS Big Sur 11.7.10/Monterey 12.7.6/Ventura 13.7.8/Sonoma 14.7.8/Sequoia 15.7.2/Tahoe 26.2.
+- OpenCore r1.0.6
 
 **Catalina is not supported!**
 
@@ -89,3 +89,4 @@ That EFI doesn't have verbose mode turned on by default, but you can simply set 
 - Hardware DRM on iGPU.
 
 README is heavily inspired by: https://github.com/lshbluesky/OC-GA-B250M-DS3H-Hackintosh
+
